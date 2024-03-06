@@ -1,0 +1,17 @@
+# Client-specific ignores
+client/node_modules
+client/dist
+client/dist-ssr
+client/*.local
+
+# Server-specific ignores
+server/**/__pycache__/
+server/.vscode/
+server/src/data_store/
+
+server/semantic-movie-search/
+server/sms-service-account-key.json
+
+# Environment file ignore
+*/.env
+

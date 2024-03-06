@@ -64,8 +64,10 @@ const Pagination = (props) => {
         return (
           <li
             key={pageNumber}
-            className={`px-3 sm:px-4 py-1.5 rounded-full text-sm bg-gray-700 text-gray-200 cursor-pointer ${
-              pageNumber === currentPage ? "bg-blue-700 font-semibold" : null
+            className={`px-3 sm:px-4 py-1.5 rounded-full text-sm text-gray-200 cursor-pointer ${
+              pageNumber === currentPage
+                ? "bg-blue-700 font-semibold"
+                : "bg-gray-700"
             }`}
             onClick={() => onPageChange(pageNumber)}
           >
