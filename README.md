@@ -45,7 +45,7 @@ Cine Suggest is a web application designed to provide users with a seamless expe
 
 2. **Create `.env` files:**
 
-    Create `.env` files in client and in server directory and populate it with the necessary environment variables.
+    Create `.env` files in client and server directory and populate it with the necessary environment variables.
 
 3. **Build and run the application:**
 
