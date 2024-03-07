@@ -8,7 +8,6 @@ Welcome to Cine Suggest, a platform for exploring and discovering movies tailore
 2. [Features](#features)
 3. [Technologies Used](#technologies-used)
 4. [Installation](#installation)
-    - [Docker Compose](#installation-with-docker-compose)
 5. [Usage](#usage)
 6. [Contributing](#contributing)
 7. [Screenshots](#screenshots)
