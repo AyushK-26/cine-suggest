@@ -26,8 +26,6 @@ services:
       - 8000:8000
     env_file:
       - ./server/.env
-    secrets:
-      - sms-service-account-key
 
     develop:
       watch:
@@ -36,7 +34,3 @@ services:
         - path: ./server
           target: /app
           action: sync
-
-secrets:
-  sms-service-account-key:
-    file: ./server/sms-service-account-key.json

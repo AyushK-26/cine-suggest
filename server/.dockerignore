@@ -1,18 +1,10 @@
-# Client-specific ignores
-**/.next
-**/.cache
-**/build
-**/dist
-
 # Server-specific ignores
 **/.DS_Store
 **/__pycache__
 **/.venv
 **/bin
 **/semantic-movie-search
-**/sms-service-account-key.json
-
-# Common ignores
+**/data_store
 **/.classpath
 **/.dockerignore
 **/.env
