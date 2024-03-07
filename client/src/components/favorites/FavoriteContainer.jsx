@@ -7,7 +7,7 @@ import ForYouSection from "./ForYouSection";
 import { useAuth } from "../../context/AuthContext";
 import { db } from "../../firebase/firebase";
 import { doc, getDoc, onSnapshot } from "firebase/firestore";
-import { BaseApiUrl, PaginationPageSize } from "../../constants/constants";
+import { BaseApiUrl } from "../../constants/constants";
 import UseDidMountEffect from "../../hooks/UseDidMountEffect";
 
 const FavoriteContainer = () => {
