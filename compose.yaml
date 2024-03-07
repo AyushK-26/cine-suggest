@@ -18,6 +18,8 @@ services:
           action: rebuild
         - path: ./client
           target: /app
+          ignore:
+            - node_modules/
           action: sync
 
   api:
