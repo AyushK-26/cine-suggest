@@ -50,7 +50,7 @@ Cine Suggest is a web application designed to provide users with a seamless expe
 3. **Build and run the application:**
 
     ```bash
-    docker-compose up -d
+    docker compose up -d
     ```
 
     This command will start the web and api services defined in the `compose.yaml` file.
