@@ -38,26 +38,28 @@ Cine Suggest is a web application designed to provide users with a seamless expe
 
 1. **Clone the repository:**
 
-    ```bash
-    git clone https://github.com/AyushK-26/Cine-Suggest
-    cd cine-suggest
-    ```
+   ```bash
+   git clone https://github.com/AyushK-26/Cine-Suggest
+   cd cine-suggest
+   ```
 
 2. **Create `.env` files:**
 
-    Create `.env` files in client and server directory and populate it with the necessary environment variables.
+   - Navigate to the `client` and `server` directories.
+   - Rename the `.env.example` files to `.env`.
+   - Open the `.env` files and replace the placeholder values with your Firebase credentials.
 
 3. **Build and run the application:**
 
-    ```bash
-    docker compose up -d
-    ```
+   ```bash
+   docker compose up -d
+   ```
 
-    This command will start the web and api services defined in the `compose.yaml` file.
+   This command will start the web and api services defined in the `compose.yaml` file.
 
 4. **Access Cine Suggest:**
 
-    Open your browser and visit [http://localhost:5173](http://localhost:5173) to access Cine Suggest.
+   Open your browser and visit [http://localhost:5173](http://localhost:5173) to access Cine Suggest.
 
 ## Usage
 
@@ -82,21 +84,27 @@ Contributions are welcome! Follow these steps to contribute:
 ## Screenshots
 
 ### Login Page
+
 ![Login](screenshots/login.png)
 
 ### Register Page
+
 ![Register](screenshots/register.png)
 
 ### Home Page
+
 ![Home](screenshots/home.png)
 
 ### Movie Modal
+
 ![Modal](screenshots/modal.png)
 
 ### Favorites Section
+
 ![Favorites](screenshots/favorites.png)
 
 ### Recommendations Section
+
 ![Recommendations](screenshots/recommendations.png)
 
 ## Contact
